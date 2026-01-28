@@ -5,7 +5,7 @@ Version 2.0.0 - January 28, 2026
 
 A lightweight JavaScript utility for tracking network connection in the browser.
 
-It provides real-time information about the user's network connection status, (online/offline), ping latency, connection quality (2G/3G/4G), bandwidth estimate, and more.
+It provides real-time information about the user's network connection status (online/offline), ping latency, connection quality (2G/3G/4G), bandwidth estimate, and more.
 
 It can be used to notify users or adjust application behavior when the network is unavailable. It could also be used to select high or low definition content based on the connection quality.
 
@@ -87,7 +87,7 @@ Bellow are the available configuration options for the class constructor:
 
 ### Methods
 
-Bellow are the available public methods:
+Below are the available public methods:
 
 - `start()` - Starts network connection monitoring.
 - `stop()`  - Stops network connection monitoring.
@@ -133,7 +133,7 @@ When `onChange` is triggered, it receives:
 | `timestamp` | Number | Unix timestamp of when the change was detected    |
 | `effectiveType` | String | The current effective connection type |
 | `previousEffectiveType` | String | The last known effective connection type |
-| `source` | String | Optional. This is set to 'poll' to distinguish from real event |
+| `source` | String | Optional. This is set to 'poll' to distinguish from the real event |
 
 Other known properties of the `connection` object may also be returned if the change is triggered by the native event. 
 
@@ -193,3 +193,4 @@ Examples people often use:
 ## Licensing
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for the license terms.
+
